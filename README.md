@@ -1,6 +1,5 @@
 # cli
 
-
 ## What is it ?
 
 It's the start of a collection of CLI tools in multiplate programming languages (Python, Go, TypeScript, Fish)
@@ -19,3 +18,24 @@ NO
 ## Pair programming
 
 [Who wanna pair-programming with me ?](https://github.com/jmfayard/cli/issues/2)
+
+## Repository layout
+
+| Folder | Purpose |
+|--------|---------|
+| `docs/` | Markdown documentation for both AI agents and humans |
+| `bin/` | Executable scripts/symlinks to put on your `$PATH` |
+| `python/` | Python CLI tools and helpers |
+| `kotlin/` | Kotlin CLI application |
+| `typescript/` | TypeScript CLI tools |
+| `ressources/` | Shared resources used across languages |
+
+## Quick start
+
+Run `make check` to verify that all basic requirements are installed on your machine:
+
+```bash
+make check
+```
+
+See `make help` for all available targets.
